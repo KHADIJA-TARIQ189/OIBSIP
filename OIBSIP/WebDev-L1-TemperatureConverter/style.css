@@ -1,0 +1,9 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#e8f0fb;min-height:100vh;display:grid;place-items:center;padding:1rem;color:#14213d}
+.box{background:#fff;width:100%;max-width:400px;padding:2rem;border-radius:12px;box-shadow:0 4px 18px rgba(20,33,61,.15);display:flex;flex-direction:column;gap:.6rem}
+h1{font-size:1.5rem;text-align:center;margin-bottom:.5rem}
+input,select{padding:.7rem;font-size:1rem;border:1px solid #9bb0d3;border-radius:6px}
+button{margin-top:.6rem;padding:.8rem;font-size:1rem;background:#2455c3;color:#fff;border:0;border-radius:6px;cursor:pointer}
+button:hover{background:#1b429a}
+#error{color:#b00020;min-height:1.2rem;font-size:.95rem}
+#result p{padding:.5rem 0;border-bottom:1px solid #e1e8f5;font-size:1.1rem}
